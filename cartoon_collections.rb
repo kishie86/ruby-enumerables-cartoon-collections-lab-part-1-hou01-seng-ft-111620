@@ -14,7 +14,7 @@ def list_dwarves(array)
   # Print a numbered list of each element
   #binding.pry 
 array.each_with_index do |characters, index|
-  binding.pry
+  #binding.pry
   puts "#{characters}!"
 end
 end
