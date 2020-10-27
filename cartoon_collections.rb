@@ -15,6 +15,6 @@ def list_dwarves(array)
   #binding.pry 
 array.each_with_index do |characters, index|
   #binding.pry
-  puts "#{index}. #{characters}!"
+  puts "#{index +1}. #{characters}!"
 end
 end
